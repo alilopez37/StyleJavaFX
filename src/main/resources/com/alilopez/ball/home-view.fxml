@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="container" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.alilopez.ball.controllers.HomeController">
+   <children>
+      <Button fx:id="iniciarBtn" layoutX="488.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#onClickedIniciarBtn" prefHeight="34.0" prefWidth="138.0" text="Iniciar" />
+      <Button fx:id="detenerBtn" layoutX="320.0" layoutY="431.0" mnemonicParsing="false" onMouseClicked="#onClickedDetenerBtn" prefHeight="34.0" prefWidth="138.0" text="Detener" />
+      <TextField fx:id="userTextField" layoutX="55.0" layoutY="66.0" prefHeight="27.0" prefWidth="282.0" />
+      <TextField layoutX="103.0" layoutY="185.0" prefHeight="54.0" prefWidth="275.0" />
+   </children>
+</AnchorPane>
